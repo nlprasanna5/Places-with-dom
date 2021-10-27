@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     grid-gap: 20px;
-    padding: 30px 20px;
+    padding: 20px 20px;
     margin:  0 70px;
     
     max-width: 1300px;
@@ -26,9 +26,22 @@
 .list li {
     list-style-type: none;
     width: 200px;
+    margin: 10px;
+    height: 450px;
+
 }
 
 .list img {
-    height: 200px;
-    width: auto;
+    height: 100px;
+    width: 200px;
+}
+
+
+
+@media screen and (max-width:720px){
+    .list{
+        margin-top: 10px;
+        display: flex;
+       flex-direction: column;
+    }
 }

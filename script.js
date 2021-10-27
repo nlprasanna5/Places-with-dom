@@ -16,7 +16,7 @@ let places = [
         id: 3,
         name: "Uppalapadu Nature Conservation",
         image_url: "https://www.holidify.com/images/tooltipImages/GUNTUR.jpg",
-        description:"Guntur houses the newly coined Andhra Capital of Amravathi, which lies about 30 km away. It serves as the administrative headquarters of Guntur district and has some unique distinctions to its name, having the largest chilli market yard in Asia being one of them. Guntur is also the third most populous town in Andhra Pradesh. With a busy industrial activity scenario, it forms part of the prominent Vishakhapatnam-Guntur Industrial corridor.  It lies on the banks of River Krishna which melts into the sea further along the way.",
+        description:"Guntur houses the newly coined Andhra Capital of Amravathi, which lies about 30 km away. It serves as the administrative headquarters of Guntur district and has some unique distinctions to its name, having the largest chilli market yard in Asia being one of them. Guntur is also the third most populous town in Andhra Pradesh. With a busy industrial activity scenario,",
     },
     {
         id: 4,
@@ -28,7 +28,7 @@ let places = [
         id: 5,
         name: "Lepakshi Temple",
         image_url: "https://www.holidify.com/images/tooltipImages/LEPAKSHI.jpg",
-        description:"Lepakshi is a small quaint village with a trail of several great kingdoms that once ruled the area. Lepakshi was founded in 1535 AD by Maharaja Aliya Rama Raya of the Vijayanagara empire. Located in Anantapur District of Andhra Pradesh and 120 km from Bangalore,  this place is a trove of several fascinating archaeological sites, beautiful ancient temples and rich culture.",
+        description:"Lepakshi is a small quaint village with a trail of several great kingdoms that once ruled the area. Lepakshi was founded in 1535 AD by Maharaja Aliya Rama Raya of the Vijayanagara empire. Located in Anantapur District of Andhra Pradesh and 120 km from Bangalore",
     },
     {
         id: 6,
@@ -40,7 +40,7 @@ let places = [
         id: 7,
         name: "Vizag Beach",
         image_url: "https://www.holidify.com/images/tooltipImages/VISAKHAPATNAM.jpg",
-        description:"Visakhapatnam, also commonly known as Vizag, is one of the oldest port cities in the country. Situated in the heart of Andhra Pradesh, Visakhapatnam is known for its picturesque beaches and serene landscape, as well as a rich cultural past, which makes it an ideal spot for a fantastic coastal vacation. The port of Visakhapatnam is renowned for being home to the oldest shipyard in all of India, and with a plethora of manmade wonders and natural spectacles.",    
+        description:"Visakhapatnam, also commonly known as Vizag, is one of the oldest port cities in the country. Situated in the heart of Andhra Pradesh, Visakhapatnam is known for its picturesque beaches and serene landscape, as well as a rich cultural past, which makes it an ideal spot for a fantastic coastal vacation.",    
     },
     {
         id: 8,
@@ -60,6 +60,12 @@ let places = [
         image_url: "https://www.holidify.com/images/tooltipImages/KURNOOL.jpg",
         description:"A place of much historical value with beautiful surrounding areas, Kurnool, is a small town in Andhra Pradesh where much of history left its imprints.",  
     },
+    {
+        id: 9,
+        name: "Vijayawada",
+        image_url: "https://www.holidify.com/images/tooltipImages/VIJAYAWADA.jpg",
+        description:"With scrumptious fruits, sensational sweets and scenic marvels, Vijayawada literally translates to 'The Place of Victory'.",    
+    },
 
 ];
 
@@ -76,7 +82,7 @@ places.forEach((element) => {
     let p=document.createElement('p');
     p.innerText=element.description;
 
-    li.append(img,h3,p);
+    li.append(image,h3,p);
 
     ul.append(li);
 });
