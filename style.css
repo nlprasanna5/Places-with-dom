@@ -1,0 +1,34 @@
+
+
+.header {
+    text-align: center;
+    font-weight: 800;
+    background-color: aquamarine;
+    color:brown;
+    width: full;
+
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 30px 20px;
+    margin:  0 70px;
+    
+    max-width: 1300px;
+    padding: 16px 32px;
+}
+
+.list li {
+    list-style-type: none;
+    width: 200px;
+}
+
+.list img {
+    height: 200px;
+    width: auto;
+}
